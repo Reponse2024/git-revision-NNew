@@ -28,3 +28,32 @@ To https://github.com/Reponse2024/git-revision.git
 User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (main)
 $
 ```
+# Bundle 4
+## Exercise 1
+```bash
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (main)
+$ git remote add git-copy https://github.com/Reponse2024/git-revision-new.git
+
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (main)
+$ git add home.html
+
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (main)
+$ git commit -m "Added conversation to home page"
+[main d92e86c] Added conversation to home page
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (main)
+$ git push git-copy
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (18/18), 2.52 KiB | 53.00 KiB/s, done.
+Total 18 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/Reponse2024/git-revision-new.git
+ * [new branch]      main -> main
+
+User@DESKTOP-PQL5SE4 MINGW64 ~/git-exercises (main)
+$
+```
